@@ -2,6 +2,7 @@
 
 #Install plyr package before running the code. >install.packages("plyr")
 library(plyr);
+library(ggplot2);
 
 NEI <- readRDS("exdata_data_NEI_data/summarySCC_PM25.rds");
 SCC <- readRDS("exdata_data_NEI_data/Source_Classification_Code.rds");
